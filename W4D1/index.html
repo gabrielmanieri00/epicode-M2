@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find a Job</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="title-container">
+        <h1>Trova un lavoro</h1>
+        <p>Inserisci il lavoro e la città per trovare le offerte di lavoro disponibili</p>
+    </div>
+    <div class="input-container">
+        <label for="job-input">Lavoro:</label>
+        <input type="text" id="job-input" placeholder="Inserisci lavoro">
+        <label for="location-input">Città:</label>
+        <input type="text" id="location-input" placeholder="Inserisci città">
+        <button id="search-button">Trova</button>
+    </div>
+    <div class="results-container">
+        <p id="result-count"></p>
+        <ul id="results-list"></ul>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
